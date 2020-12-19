@@ -30,10 +30,17 @@ nav {
     z-index: 100;
 }
 
+nav .nav-content {
+    padding-top: 10px;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 nav a {
     text-decoration: none;
     color: var(---on-primary-color);
-    padding-top: 10px;
 }
 
 .ASCII {
