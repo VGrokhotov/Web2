@@ -11,6 +11,13 @@
     --color-auf: #00000000;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .img-container {
     width: 30%;
     height: 30%;
@@ -26,11 +33,12 @@
 .contact-us-description {
     width: 35%;
     font-family: "Open Sans";
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     margin-top: 32px;
-    right: 96px;
+    /* right: 96px; */
+    margin-right: 96px;
     color: var(--on-surface-color);
     text-align: right;
 }
@@ -50,14 +58,6 @@
 .address img {
     width: 40%;
 }
-
-/* img[id=UZ] {
-
-}
-
-img[id=RU] {
-
-} */
 
 .extra {
     margin-top: 20px;
@@ -83,7 +83,7 @@ img[id=RU] {
 }
 
 h2[id=dop] {
-    margin-top: 64px;
+    margin-top: 24px;
 }
 
 .extra a {text-decoration:none;}
