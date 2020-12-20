@@ -44,6 +44,10 @@
     background-color: var(--surface-color);
 }
 
+.services h3 {
+    font-weight: 400;
+}
+
 .services h2,
 .feedback h2 {
     font-family: "Open Sans";
@@ -77,18 +81,20 @@
     padding: 0px 30px;
     border-width: 3px;
     border-style: solid;
-    border-color: var(--on-surface-color);
+    border-color: var(--primary-color);
     /* background-color: var(--secondary-color); */
     border-radius: 50px;
 }
 
 .feedback-item[id=first],
-.feedback-item[id=third] {
+.feedback-item[id=third],
+.feedback-item[id=fifth] {
     text-align: right;
     justify-self: right;
 }
 
-.feedback-item[id=second] {
+.feedback-item[id=second],
+.feedback-item[id=forth] {
     text-align: left;
 }
 
