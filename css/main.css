@@ -11,7 +11,7 @@
 }
 
 .img-container {
-    width: 100vw;
+    width: 100%;
 }
 
 .img-container>img {
@@ -20,7 +20,7 @@
 
 .main-description {
     width: 45vw;
-    font-family: "Roboto";
+    font-family: "Open Sans";
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@
 }
 
 .main-description>h3 {
+    font-family: "Roboto";
     flex: 1 1 auto;
     margin: 0 0;
 }
