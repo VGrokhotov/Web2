@@ -29,6 +29,11 @@
     text-align: right;
 }
 
+.main-description h2 {
+    margin-bottom: 12px;
+}
+
+
 .main-description>h3 {
     font-family: "Roboto";
     flex: 1 1 auto;
